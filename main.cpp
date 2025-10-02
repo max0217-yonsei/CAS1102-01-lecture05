@@ -50,8 +50,6 @@ void decode_steganography(int image_data[], int data_size, std::string key) {
      * - If the value is 0, stop the loop. Otherwise, cast the value to a `char` and print it.
      */
 
-}
-
 
 // DO NOT EDIT THE MAIN FUNCTION
 int main() {
