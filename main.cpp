@@ -5,18 +5,14 @@
 #include "third_party/stb/stb_image.h"
 
 void decode_steganography(int image_data[], int data_size, std::string key) {
-
-    int currentIndex = 1000;
-
-    void decode_steganography(int image_data[], int data_size, std::string key) {
-    int currentIndex = 1000;
     
+    .
+    int currentIndex = 1000;
     int key_char_index = 0;
 
+   
     while (true) {
-       
         char key_char = key[key_char_index % key.length()];
-        
         currentIndex += static_cast<int>(key_char);
         
         if (currentIndex >= data_size) {
